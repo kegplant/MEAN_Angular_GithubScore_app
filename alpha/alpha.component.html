@@ -1,0 +1,15 @@
+<!-- submit username -->
+<div class='container'>   
+<div class='panel' id='panel1'>
+    <h2>GitHub Score</h2>
+    <p>Github Username: <input type='text' [(ngModel)]='username'></p>
+    <button (click)='onClick()'>Calculate my Github Score</button>
+</div>
+<div class="panel">
+    <h2>Your Score: {{score}}
+       <h2>user: {{user|json}}</h2>
+        
+    </h2>
+    <p>Great Job!</p>
+</div>
+</div>   
